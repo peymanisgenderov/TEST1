@@ -1,0 +1,2228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.navbar-bir {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #76726d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-bir-inline {
+    width: 1300px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.uliler-boxbir {
+    width: 271px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ul-aboutusyazisi {
+    width: 60px;
+    height: 20px;
+    font-size: 14px;
+    font-family: 'Jost', sans-serif;
+    color: #292621;
+}
+
+.ul-privacyyazisi {
+    width: 41px;
+    height: 20px;
+    font-size: 14px;
+    font-family: 'Jost', sans-serif;
+    color: #292621;
+}
+
+.ul-faqyazisi {
+    width: 26px;
+    height: 20px;
+    font-size: 14px;
+    font-family: 'Jost', sans-serif;
+    color: #292621;
+}
+
+.ul-careersyazisi {
+    width: 45px;
+    height: 20px;
+    font-size: 14px;
+    font-family: 'Jost', sans-serif;
+    color: #292621;
+}
+
+.boxingone {
+    width: 380px;
+    height: 24px;
+    display: flex;
+}
+
+.boxingtwo {
+    width: 220px;
+    height: 24px;
+    display: flex;
+    font-size: 14px;
+    font-family: 'Jost', sans-serif;
+    color: #292621;
+}
+
+.boxingtwo a {
+    text-decoration: none;
+}
+
+.ul-mywishlistyazisi {
+    width: 84px;
+    height: 24px;
+    color: #76726d;
+    display: flex;
+    align-items: center;
+    border-right: 2px solid white;
+}
+
+.ul-trackyourorderyazisi {
+    width: 136px;
+    height: 24px;
+    color: #76726d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid white;
+}
+
+.ul-icons {
+    width: 160px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.fa-facebook {
+    color: #76726d;
+}
+
+.fa-facebook:hover {
+    transition: 0.8s;
+    transform: rotateY(180deg);
+    color: red;
+}
+
+.fa-instagram {
+    color: #76726d;
+}
+
+.fa-instagram:hover {
+    transition: 0.8s;
+    transform: rotateX(0deg) rotateY(180deg);
+    color: red;
+}
+
+.fa-twitter {
+    color: #76726d;
+}
+
+.fa-twitter:hover {
+    transition: 0.8s;
+    transform: rotateX(0deg) rotateY(180deg);
+    color: red;
+}
+
+.fa-linkedin-in {
+    color: #76726d;
+}
+
+.fa-linkedin-in:hover {
+    transition: 0.8s;
+    transform: rotateX(0deg) rotateY(180deg);
+    color: red;
+}
+
+.fa-youtube {
+    color: #76726d;
+}
+
+.fa-youtube:hover {
+    transition: 0.8s;
+    transform: rotateX(0deg) rotateY(180deg);
+    color: red;
+}
+
+.header-navbarbox {
+    width: 100%;
+    height: 91px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-navbar {
+    width: 1296px;
+    height: 91px;
+    display: flex;
+}
+
+.header-navbarimg {
+    width: 318px;
+    height: 91px;
+    display: flex;
+    align-items: center;
+}
+
+.header-navbar-uliler {
+    width: 710px;
+    height: 91px;
+    display: flex;
+    gap: 4px;
+}
+
+@media only screen and (max-width:992px) {
+    .uliler-boxbir {
+        position: relative;
+        left: 200px;
+    }
+
+    .header-navbar-uliler {
+        display: none;
+    }
+
+    .ul-icons {
+        position: relative;
+        left: -100px;
+    }
+}
+
+.header-navbar-homeyazisi {
+    width: 85px;
+    height: 91px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    cursor: pointer;
+}
+
+.header-navbar-homeyazisi a {
+    color: #141517;
+}
+
+.header-navbar-homeyazisi:hover a {
+    transition: 0.5s;
+    color: red;
+}
+
+.header-navbar-menyazisi {
+    width: 73px;
+    height: 91px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    cursor: pointer;
+}
+
+.header-navbar-menyazisi a {
+    color: #141517;
+}
+
+.header-navbar-menyazisi:hover a {
+    transition: 0.5s;
+    color: red;
+}
+
+.header-navbar-womenyazisi {
+    width: 97px;
+    height: 91px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    cursor: pointer;
+}
+
+.header-navbar-womenyazisi a {
+    color: #141517;
+}
+
+.header-navbar-womenyazisi:hover a {
+    transition: 0.5s;
+    color: red;
+}
+
+.header-navbar-babycollectionyazisi {
+    width: 155px;
+    height: 91px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    cursor: pointer;
+}
+
+.header-navbar-babycollectionyazisi a {
+    color: #141517;
+}
+
+.header-navbar-babycollectionyazisi:hover a {
+    transition: 0.5s;
+    color: red;
+}
+
+.header-navbar-babycollectionyazisi::after {
+    content: "New";
+    width: 30px;
+    height: 15px;
+    background-color: red;
+    position: relative;
+    top: -20px;
+    left: -10px;
+    font-size: 10px;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 100;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: auto;
+}
+
+.header-navbar-babycollectionyazisi a {
+    position: relative;
+    left: 15px;
+}
+
+.header-navbar-pagesyazisi {
+    width: 99px;
+    height: 91px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    cursor: pointer;
+
+    .fa-angle-down {
+        font-size: 12px;
+    }
+}
+
+.header-navbar-pagesyazisi a {
+    position: relative;
+    color: #141517;
+}
+
+.header-navbar-pagesyazisi:hover a {
+    transition: 0.5s;
+    color: red;
+}
+
+.header-navbar-blogyazisi {
+    width: 75px;
+    height: 91px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    cursor: pointer;
+}
+
+.header-navbar-blogyazisi a {
+    color: #141517;
+}
+
+.header-navbar-blogyazisi:hover a {
+    transition: 0.5s;
+    color: red;
+}
+
+.header-navbar-contactyazisi {
+    width: 96px;
+    height: 91px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    cursor: pointer;
+}
+
+.header-navbar-contactyazisi a {
+    color: #141517;
+}
+
+.header-navbar-contactyazisi:hover a {
+    transition: 0.5s;
+    color: red;
+}
+
+.header-navbar-iconlar {
+    width: 268px;
+    height: 91px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-navbar-serchicon {
+    width: 49px;
+    height: 91px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.header-navbar-serchicon:hover {
+    color: red;
+}
+
+.header-navbar-usericon {
+    width: 49px;
+    height: 91px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.header-navbar-usericon:hover {
+    color: red;
+}
+
+.header-navbar-shoppingcarticon {
+    width: 49px;
+    height: 91px;
+    display: flex;
+    font-size: 25px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-navbar-shoppingcarticon:hover {
+    color: red;
+}
+
+.header-navbar-shoppingcarticon::after {
+    content: "1";
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    position: relative;
+    top: -20px;
+}
+
+.fa-cart-shopping {
+    position: relative;
+    left: 8px;
+}
+
+.sekilustunavbar {
+    width: 100%;
+    height: 50px;
+    background-color: #16161a;
+    color: white;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gizlimenunavbar {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    display: none;
+}
+
+@media only screen and (max-width:992px) {
+    .gizlimenunavbar {
+        display: inline-block;
+    }
+}
+
+.shopnowyazisi:hover {
+    transition: 1s;
+    letter-spacing: 2px;
+}
+
+.shopnowyazisi {
+    color: #cdb690;
+    border-bottom: 2px solid #cdb690;
+}
+
+.section-sekilveyazilar {
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://preview.colorlib.com/theme/capitalshop/assets/img/hero/h1_hero1.jpg.webp);
+}
+
+.sekilustuyazilarvebutonlar-box {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 200px;
+}
+
+.solbutonbir {
+    width: 50px;
+    height: 100px;
+    background-color: #d4d1d1;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.solbutonbir:hover {
+    transition: 0.5s;
+    background-color: #292621;
+}
+
+.sekilustuyazilar-box {
+    width: 540px;
+    height: 300px;
+    position: relative;
+    left: 61px;
+}
+
+.fashionsaleyazisi {
+    width: 540px;
+    height: 60px;
+    color: #ff2020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Clicker Script', cursive;
+    animation: scale1 2s 0.7s forwards;
+}
+
+@keyframes scale1 {
+    to {
+        transform: scale(1.1);
+    }
+
+    from {
+        transform: scale(1);
+    }
+}
+
+.minimalmenzstyleyazisi {
+    width: 540px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: "Jost", sans-serif;
+}
+
+@media only screen and (max-width:992px) {}
+
+.kicikmetnbir {
+    width: 540px;
+    height: 70px;
+    color: #74706b;
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    padding: 0 50px;
+    animation: translate1 2s 0.7s forwards;
+}
+
+@keyframes translate1 {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-30px);
+    }
+}
+
+
+.shopnowbutonu {
+    width: 175px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    left: 183px;
+    color: white;
+    background-color: #292621;
+    border: none;
+    cursor: pointer;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation: translate2 2s 0.7s forwards;
+}
+
+.shopnowbutonu:hover {
+    transition: 0.7s;
+    background-color: #fef7f7;
+    color: #292621;
+    border: 1px solid #292621;
+}
+
+@keyframes translate2 {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-50px);
+    }
+}
+
+.sagbutonbir {
+    width: 50px;
+    height: 100px;
+    background-color: #d4d1d1;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    left: 879px;
+}
+
+.section-ucsekilbiryerde {
+    width: 100%;
+    height: 415px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.ucsekilbiryerdebox {
+    width: 1320px;
+    height: 385px;
+    display: flex;
+}
+
+.sekilbirbox {
+    width: 440px;
+    height: 385px;
+    display: flex;
+    justify-content: center;
+}
+
+.sekilbir {
+    width: 415px;
+    height: 365px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/items1.jpg.webp);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: 1s;
+    position: relative;
+    z-index: 1;
+}
+
+.sekilbir:hover {
+    background-size: 105%;
+}
+
+.sekilustuyazibirbox {
+    width: 390px;
+    height: 70px;
+    position: relative;
+    z-index: 0;
+    transition: 1s;
+}
+
+@keyframes yuxari {
+    to {
+        transform: translateY(-30px);
+    }
+
+    from {
+        transform: translateY(0);
+    }
+}
+
+.sekilbir:hover .sekilustuyazibirbox {
+    animation: yuxari 0.7s forwards;
+}
+
+.mensfashionyazisi {
+    width: 150px;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 120px;
+    font-size: 24px;
+    font-family: "Jost", sans-serif;
+    cursor: pointer;
+}
+
+.sekilustushopnowbutonubir {
+    width: 75px;
+    height: 24px;
+    color: #cdb690;
+    font-size: 13px;
+    font-family: "Jost", sans-serif;
+    border-bottom: 2px solid #cdb690;
+    position: relative;
+    top: 16px;
+    left: 158px;
+    cursor: pointer;
+    display: none;
+    transition: 1s;
+}
+
+.sekilbir:hover .sekilustushopnowbutonubir {
+    display: block;
+}
+
+.sekilustushopnowbutonubir:hover {
+    letter-spacing: 1px;
+}
+
+.sekilikibox {
+    width: 440px;
+    height: 385px;
+    display: flex;
+    justify-content: center;
+}
+
+.sekiliki {
+    width: 415px;
+    height: 365px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/items2.jpg.webp);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: 1s;
+    position: relative;
+    z-index: 1;
+}
+
+.sekiliki:hover {
+    background-size: 105%;
+}
+
+.sekilustuyaziikibox {
+    width: 390px;
+    height: 70px;
+    position: relative;
+    z-index: 0;
+    transition: 1s;
+}
+
+@keyframes yuxari1 {
+    to {
+        transform: translateY(-30px);
+    }
+
+    from {
+        transform: translateY(0);
+    }
+}
+
+.sekiliki:hover .sekilustuyaziikibox {
+    animation: yuxari1 0.7s forwards;
+}
+
+.womensfashionyazisi {
+    width: 190px;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 120px;
+    font-size: 24px;
+    font-family: "Jost", sans-serif;
+    cursor: pointer;
+}
+
+.sekilustushopnowbutonuiki {
+    width: 75px;
+    height: 24px;
+    color: #cdb690;
+    font-size: 13px;
+    font-family: "Jost", sans-serif;
+    border-bottom: 2px solid #cdb690;
+    position: relative;
+    top: 16px;
+    left: 158px;
+    cursor: pointer;
+    display: none;
+    transition: 1s;
+}
+
+.sekiliki:hover .sekilustushopnowbutonuiki {
+    display: block;
+}
+
+.sekilustushopnowbutonuiki:hover {
+    letter-spacing: 1px;
+}
+
+.sekilucbox {
+    width: 440px;
+    height: 385px;
+    display: flex;
+    justify-content: center;
+}
+
+.sekiluc {
+    width: 415px;
+    height: 365px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/items3.jpg.webp);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: 1s;
+    position: relative;
+    z-index: 1;
+}
+
+.sekiluc:hover {
+    background-size: 105%;
+}
+
+.sekilustuyaziucbox {
+    width: 390px;
+    height: 70px;
+    position: relative;
+    z-index: 0;
+    transition: 1s;
+}
+
+@keyframes yuxari {
+    to {
+        transform: translateY(-30px);
+    }
+
+    from {
+        transform: translateY(0);
+    }
+}
+
+.sekiluc:hover .sekilustuyaziucbox {
+    animation: yuxari 0.7s forwards;
+}
+
+.babyfashionyazisi {
+    width: 150px;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 120px;
+    font-size: 24px;
+    font-family: "Jost", sans-serif;
+    cursor: pointer;
+}
+
+.sekilustushopnowbutonuuc {
+    width: 75px;
+    height: 24px;
+    color: #cdb690;
+    font-size: 13px;
+    font-family: "Jost", sans-serif;
+    border-bottom: 2px solid #cdb690;
+    position: relative;
+    top: 16px;
+    left: 158px;
+    cursor: pointer;
+    display: none;
+    transition: 1s;
+}
+
+.sekiluc:hover .sekilustushopnowbutonuuc {
+    display: block;
+}
+
+.sekilustushopnowbutonuuc:hover {
+    letter-spacing: 1px;
+}
+
+.section-trendingthisweek {
+    width: 100%;
+    height: 750px;
+}
+
+.navbartrendingthisweek {
+    width: 1300px;
+    height: 62px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.568);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 95px;
+    left: 110px;
+}
+
+.trendingthisweekyazisi {
+    width: 295px;
+    height: 62px;
+    font-size: 23px;
+    font-family: "Jost", sans-serif;
+}
+
+.menwomenbabyfashionyazilaribox {
+    width: 314px;
+    height: 62px;
+    display: flex;
+    gap: 14px;
+}
+
+.men-yazisi {
+    width: 54px;
+    height: 62px;
+    border-radius: 5px;
+    color: red;
+    border-bottom: 4px solid red;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.women-yazisi {
+    width: 77px;
+    height: 62px;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.women-yazisi:hover {
+    border-bottom: 4px solid red;
+}
+
+.baby-yazisi {
+    width: 58px;
+    height: 62px;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.baby-yazisi:hover {
+    border-bottom: 4px solid red;
+}
+
+.fashion-yazisi {
+    width: 77px;
+    height: 62px;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.fashion-yazisi:hover {
+    border-bottom: 4px solid red;
+}
+
+.dordsekilbiryerde {
+    width: 1320px;
+    height: 447px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 135px;
+    left: 100px;
+}
+
+.sol-oxbir {
+    width: 30px;
+    height: 30px;
+    color: #76726d;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 208px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.sol-oxbir:hover {
+    color: red;
+}
+
+.dordun-birisekilyazibox {
+    width: 300px;
+    height: 420px;
+}
+
+.dordun-birisekilyazibox:hover .dordunbirisekil {
+    background-size: 103%;
+}
+
+.dordunbirisekil {
+    width: 300px;
+    height: 340px;
+    transition: 1s;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/latest1.jpg.webp);
+}
+
+.sekilustugizliyazibir {
+    width: 210px;
+    height: 50px;
+    position: relative;
+    top: 266px;
+    left: 45px;
+    display: none;
+    transition: 0.5s;
+}
+
+.sekilustugizliyazibirbir {
+    width: 210px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+
+.dordun-birisekilyazibox:hover .sekilustugizliyazibir {
+    display: block;
+}
+
+.iconbir {
+    width: 70px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.iconbir:hover {
+    color: white;
+    background-color: red;
+}
+
+.iconbir .fa-cart-shopping {
+    position: relative;
+    left: -1px;
+}
+
+.iconiki {
+    width: 70px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.iconiki:hover {
+    color: white;
+    background-color: red;
+}
+
+.iconuc {
+    width: 70px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.iconuc:hover {
+    color: white;
+    background-color: red;
+}
+
+.mehsuladibir {
+    width: 280px;
+    height: 33px;
+    color: #292621;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 13px;
+}
+
+.mehsuladibir h3 {
+    cursor: pointer;
+    transition: 1s;
+}
+
+.mehsuladibir:hover {
+    color: red;
+}
+
+.mehsulqiymetibir {
+    width: 280px;
+    height: 24px;
+    position: relative;
+    font-size: 20px;
+    top: 21px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    .qiymetbir {
+        color: gray;
+        cursor: pointer;
+    }
+
+    .qiymetbirbir {
+        color: #cdb690;
+        cursor: pointer;
+    }
+}
+
+.dordun-ikisisekilyazibox {
+    width: 300px;
+    height: 420px;
+}
+
+.dordun-ikisisekilyazibox:hover .dordunikisisekil {
+    background-size: 103%;
+}
+
+.dordunikisisekil {
+    width: 300px;
+    height: 340px;
+    transition: 1s;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/latest4.jpg.webp);
+}
+
+.sekilustugizliyaziiki {
+    width: 210px;
+    height: 50px;
+    position: relative;
+    top: 266px;
+    left: 45px;
+    display: none;
+    transition: 0.5s;
+}
+
+.sekilustugizliyaziikiiki {
+    width: 210px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+
+.dordun-ikisisekilyazibox:hover .sekilustugizliyaziiki {
+    display: block;
+}
+
+.dordun-ucusekilyazibox {
+    width: 300px;
+    height: 420px;
+}
+
+.dordun-ucusekilyazibox:hover .dordunucusekil {
+    background-size: 103%;
+}
+
+.dordunucusekil {
+    width: 300px;
+    height: 340px;
+    transition: 1s;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/latest3.jpg.webp);
+}
+
+.sekilustugizliyaziucu {
+    width: 210px;
+    height: 50px;
+    position: relative;
+    top: 266px;
+    left: 45px;
+    display: none;
+    transition: 0.5s;
+}
+
+.sekilustugizliyaziucuucu {
+    width: 210px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+
+.dordun-ucusekilyazibox:hover .sekilustugizliyaziucu {
+    display: block;
+}
+
+.dordun-dordusekilyazibox {
+    width: 300px;
+    height: 420px;
+}
+
+.dordun-dordusekilyazibox:hover .dordundordusekil {
+    background-size: 103%;
+}
+
+.dordundordusekil {
+    width: 300px;
+    height: 340px;
+    transition: 1s;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/latest2.jpg.webp);
+}
+
+.sekilustugizliyazidordu {
+    width: 210px;
+    height: 50px;
+    position: relative;
+    top: 266px;
+    left: 45px;
+    display: none;
+    transition: 0.5s;
+}
+
+.sekilustugizliyazidordudordu {
+    width: 210px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+
+.dordun-dordusekilyazibox:hover .sekilustugizliyazidordu {
+    display: block;
+}
+
+.section-customertestimonial {
+    width: 100%;
+    height: 435px;
+    background-color: #F3EAD8;
+}
+
+.umumibox {
+    width: 1075px;
+    height: 275px;
+    position: relative;
+    top: 80px;
+    left: 230px;
+}
+
+@media only screen and (max-width:992px) {
+    .navbartrendingthisweek {
+        width: 900px;
+        position: relative;
+        left: 60px;
+    }
+
+    .sol-oxbir {
+        position: relative;
+        left: -90px;
+    }
+
+    .dordun-birisekilyazibox {
+        position: relative;
+        left: -100px;
+    }
+
+    .dordun-ikisisekilyazibox {
+        position: relative;
+        left: -100px;
+    }
+
+    .dordun-ucusekilyazibox {
+        position: relative;
+        left: -100px;
+    }
+
+    .dordun-dordusekilyazibox {
+        display: none;
+    }
+}
+
+.customeryazisi {
+    width: 1075px;
+    height: 40px;
+    color: #292621;
+    font-size: 25px;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.umumimetnbox {
+    width: 1075px;
+    height: 100px;
+    display: flex;
+    position: relative;
+    top: 40px;
+}
+
+.umumisol-ox {
+    width: 25px;
+    height: 100px;
+    color: #74706b;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.umumimetn {
+    width: 700px;
+    height: 100px;
+    text-align: center;
+    color: #292621;
+    font-size: 22px;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    left: 162px;
+}
+
+.umumisag-ox {
+    width: 25px;
+    height: 100px;
+    color: #74706b;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    left: 325px;
+}
+
+.umumisekilveyazibox {
+    width: 1075px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+}
+
+.umumisekilveyazi {
+    width: 230px;
+    height: 65px;
+    display: flex;
+    gap: 20px;
+}
+
+.umumisekil {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/founder-img.png.webp);
+}
+
+.umumiyaziborderi {
+    width: 145px;
+    height: 65px;
+}
+
+.sekiladi {
+    color: #292621;
+    font-size: 14px;
+    font-family: "Jost", sans-serif;
+}
+
+.dizayneradi {
+    color: #74706b;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+}
+
+@media only screen and (max-width:992px) {
+    .customeryazisi {
+        position: relative;
+        left: -300px;
+    }
+
+
+    .umumimetnbox {
+        position: relative;
+        left: -300px;
+    }
+
+    .umumisol-ox {
+        position: relative;
+        left: 100px;
+    }
+
+    .umumimetn {
+        position: relative;
+        left: 150px;
+    }
+
+    .umumisag-ox {
+        position: relative;
+        left: 300px;
+    }
+
+    .umumisekilveyazibox {
+        position: relative;
+        left: -300px;
+    }
+
+
+}
+
+.section-youmaylike {
+    width: 100%;
+    height: 740px;
+    background-color: #ffffff;
+}
+
+.youmaylikeyazisi {
+    width: 100%;
+    height: 50px;
+    color: #292621;
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.4;
+    position: relative;
+    top: 95px;
+}
+
+.youmaylikesekilleribiryerde {
+    width: 1295px;
+    height: 450px;
+    display: flex;
+    position: relative;
+    top: 135px;
+    left: 124px;
+}
+
+.youmaylikesol-ox {
+    width: 30px;
+    height: 30px;
+    color: #76726d;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 209px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.youmaylikesol-ox:hover {
+    color: red;
+}
+
+.sekilveyaziboxbir {
+    width: 300px;
+    height: 420px;
+    cursor: pointer;
+}
+
+.sekilveyaziboxbir:hover .fotobir {
+    background-size: 105%;
+}
+
+.fotobir {
+    width: 300px;
+    height: 340px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1s;
+    background-image: url(https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/latest5.jpg.webp);
+}
+
+.fotoustugizliyazibir {
+    width: 210px;
+    height: 50px;
+    position: relative;
+    top: 266px;
+    left: 45px;
+    display: none;
+    transition: 0.5s;
+}
+
+.fotoustugizliyazibirbir {
+    width: 210px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+
+.sekilveyaziboxbir:hover .fotoustugizliyazibir {
+    display: block;
+}
+
+.adliqbir {
+    width: 280px;
+    height: 35px;
+    color: #292621;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    top: 15px;
+    transition: 0.5s;
+}
+
+.adliqbir:hover {
+    color: red;
+}
+
+.kremqiymeti {
+    width: 280px;
+    height: 25px;
+    color: #74706b;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.kremqiymetiiki {
+    color: #cdb690;
+}
+
+.sekilveyaziboxiki {
+    width: 300px;
+    height: 420px;
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+}
+
+.sekilveyaziboxiki:hover .fotoiki {
+    background-size: 105%;
+}
+
+.fotoiki {
+    width: 300px;
+    height: 340px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1s;
+    background-image: url(https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/latest6.jpg.webp);
+}
+
+.fotoustugizliyaziiki {
+    width: 210px;
+    height: 50px;
+    position: relative;
+    top: 266px;
+    left: 45px;
+    display: none;
+    transition: 0.5s;
+}
+
+.fotoustugizliyaziikiiki {
+    width: 210px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+
+.sekilveyaziboxiki:hover .fotoustugizliyaziiki {
+    display: block;
+}
+
+.adliqbir {
+    width: 280px;
+    height: 35px;
+    color: #292621;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    top: 15px;
+    transition: 0.5s;
+}
+
+.adliqbir:hover {
+    color: red;
+}
+
+.kremqiymeti {
+    width: 280px;
+    height: 25px;
+    color: #74706b;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.kremqiymetiiki {
+    color: #cdb690;
+}
+
+.sekilveyaziboxuc {
+    width: 300px;
+    height: 420px;
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+}
+
+.sekilveyaziboxuc:hover .fotouc {
+    background-size: 105%;
+}
+
+.fotouc {
+    width: 300px;
+    height: 340px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1s;
+    background-image: url(https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/latest7.jpg.webp);
+}
+
+.fotoustugizliyaziuc {
+    width: 210px;
+    height: 50px;
+    position: relative;
+    top: 266px;
+    left: 45px;
+    display: none;
+    transition: 0.5s;
+}
+
+.fotoustugizliyaziucuc {
+    width: 210px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+
+.sekilveyaziboxuc:hover .fotoustugizliyaziuc {
+    display: block;
+}
+
+.adliqbir {
+    width: 280px;
+    height: 35px;
+    color: #292621;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    top: 15px;
+    transition: 0.5s;
+}
+
+.adliqbir:hover {
+    color: red;
+}
+
+.kremqiymeti {
+    width: 280px;
+    height: 25px;
+    color: #74706b;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.kremqiymetiiki {
+    color: #cdb690;
+}
+
+.sekilveyaziboxdord {
+    width: 300px;
+    height: 420px;
+    cursor: pointer;
+    position: relative;
+    left: 30px;
+}
+
+.sekilveyaziboxdord:hover .fotodord {
+    background-size: 105%;
+}
+
+.fotodord {
+    width: 300px;
+    height: 340px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1s;
+    background-image: url(https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/latest8.jpg.webp);
+}
+
+.fotoustugizliyazidord {
+    width: 210px;
+    height: 50px;
+    position: relative;
+    top: 266px;
+    left: 45px;
+    display: none;
+    transition: 0.5s;
+}
+
+.fotoustugizliyazidorddord {
+    width: 210px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+
+.sekilveyaziboxdord:hover .fotoustugizliyazidord {
+    display: block;
+}
+
+.adliqbir {
+    width: 280px;
+    height: 35px;
+    color: #292621;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    top: 15px;
+    transition: 0.5s;
+}
+
+.adliqbir:hover {
+    color: red;
+}
+
+.kremqiymeti {
+    width: 280px;
+    height: 25px;
+    color: #74706b;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.kremqiymetiiki {
+    color: #cdb690;
+}
+
+.youmaylikesag-ox {
+    width: 30px;
+    height: 30px;
+    color: #76726d;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 209px;
+    left: 35px;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+}
+
+.youmaylikesag-ox:hover {
+    color: red;
+}
+
+.section-latestnews {
+    width: 100%;
+    height: 770px;
+    background-color: #f6f6f6;
+}
+
+.latestnewsyazisi {
+    width: 855px;
+    height: 50px;
+    font-size: 30px;
+    font-family: "Jost", sans-serif;
+    color: #292621;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    left: 331px;
+}
+
+.kolasekliveyazilar {
+    width: 415px;
+    height: 505px;
+    position: relative;
+    top: 120px;
+    left: 112px;
+    cursor: pointer;
+}
+
+.kolasekli {
+    width: 415px;
+    height: 305px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/blog1.jpg.webp);
+}
+
+.kolayazibir {
+    width: 415px;
+    height: 23px;
+    color: #74706b;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 24px;
+}
+
+.kolayaziiki {
+    width: 415px;
+    height: 31px;
+    position: relative;
+    top: 35px;
+    color: #292621;
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.kolasekliveyazilar:hover .kolayaziiki {
+    color: red;
+}
+
+.kolayaziuc {
+    width: 415px;
+    height: 50px;
+    position: relative;
+    top: 45px;
+    color: #74706b;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+}
+
+.kolabuton {
+    width: 85px;
+    height: 25px;
+    position: relative;
+    top: 72px;
+    color: #292621;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    transition: 1s;
+}
+
+.kolabuton:hover {
+    letter-spacing: 1.1px;
+}
+
+.paltarsekliveyazilar {
+    width: 415px;
+    height: 505px;
+    position: relative;
+    top: -385px;
+    left: 550px;
+    cursor: pointer;
+}
+
+.paltarsekli {
+    width: 415px;
+    height: 305px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/blog2.jpg.webp);
+}
+
+.paltaryazibir {
+    width: 415px;
+    height: 23px;
+    color: #74706b;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 24px;
+}
+
+.paltaryaziiki {
+    width: 415px;
+    height: 31px;
+    position: relative;
+    top: 35px;
+    color: #292621;
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.paltarsekliveyazilar:hover .paltaryaziiki {
+    color: red;
+}
+
+.paltaryaziuc {
+    width: 415px;
+    height: 50px;
+    position: relative;
+    top: 45px;
+    color: #74706b;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+}
+
+.paltarbuton {
+    width: 85px;
+    height: 25px;
+    position: relative;
+    top: 72px;
+    color: #292621;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    transition: 1s;
+}
+
+.paltarbuton:hover {
+    letter-spacing: 1.1px;
+}
+
+.sampunsekliveyazilar {
+    width: 415px;
+    height: 505px;
+    position: relative;
+    top: -890px;
+    left: 990px;
+    cursor: pointer;
+}
+
+.sampunsekli {
+    width: 415px;
+    height: 305px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/blog3.jpg.webp);
+}
+
+.sampunyazibir {
+    width: 415px;
+    height: 23px;
+    color: #74706b;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 24px;
+}
+
+.sampunyaziiki {
+    width: 415px;
+    height: 31px;
+    position: relative;
+    top: 35px;
+    color: #292621;
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.sampunsekliveyazilar:hover .sampunyaziiki {
+    color: red;
+}
+
+.sampunyaziuc {
+    width: 415px;
+    height: 50px;
+    position: relative;
+    top: 45px;
+    color: #74706b;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+}
+
+.sampunbuton {
+    width: 85px;
+    height: 25px;
+    position: relative;
+    top: 72px;
+    color: #292621;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    transition: 1s;
+}
+
+.sampunbuton:hover {
+    letter-spacing: 1.1px;
+}
+
+.section-kateqoriya {
+    width: 100%;
+    height: 260px;
+    background-color: #ffffff;
+}
+
+.kateqoriya-threeiconsbox {
+    width: 1320px;
+    height: 182px;
+    display: flex;
+    position: relative;
+    top: 70px;
+    left: 100px;
+}
+
+.kateqoriya-oneiconbox {
+    width: 329px;
+    height: 182px;
+}
+
+.kateqoriya-onetwoiconbox {
+    width: 305px;
+    height: 130px;
+    border-right: 3px solid white;
+    position: relative;
+    left: 12px;
+}
+
+.kateqoriya-oneicon {
+    width: 302px;
+    height: 69px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.fastandfreedeliveryyazisi {
+    width: 302px;
+    height: 24px;
+    font-size: 25px;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 1.2px;
+}
+
+.freedeliveryonallordersyazisi {
+    width: 302px;
+    height: 37px;
+    color: #57667e;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
+
+.footerboxbir {
+    width: 100%;
+    height: 122px;
+    position: relative;
+    top: 65px;
+}
+
+.footerboxiki {
+    width: 1320px;
+    height: 122px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 100px;
+}
+
+.subscribenewsletterborderi {
+    width: 330px;
+    height: 82px;
+}
+
+.subscribeyazisi {
+    width: 305px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 12px;
+    color: #fff;
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+}
+
+.subscribeyazisiiki {
+    width: 305px;
+    height: 23px;
+    color: #fff;
+    font-family: "Jost", sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 12px;
+    left: 12px;
+}
+
+.formbox {
+    width: 550px;
+    height: 82px;
+    display: flex;
+}
+
+.emailinputu {
+    width: 388px;
+    height: 60px;
+    padding: 0 15px;
+    border: none;
+    position: relative;
+    left: 14px;
+}
+
+.subscribebutonu {
+    width: 125px;
+    height: 60px;
+    border: none;
+    font-family: "Jost", sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #ff2020;
+    position: relative;
+    left: 24px;
+    cursor: pointer;
+}
+
+.footer-icons-box {
+    width: 220px;
+    height: 82px;
+    color: #212529;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.facebookicon {
+    width: 24px;
+    height: 24px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

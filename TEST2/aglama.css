@@ -1,0 +1,67 @@
+/*.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.fa-image {
+    font-size: 50px;
+    color: white;
+}*/
+
+/*.boxbir {
+    width: 500px;
+    height: 500px;
+    background-image: url(./g1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.boxbir:hover .boxiki {
+    height: 500px;
+}
+
+.boxbir:hover .boxuc {
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.boxiki {
+    width: 500px;
+    height: 0px;
+    background-color: green;
+    transition: 0.5s;
+    align-self: flex-end;
+}
+
+.boxuc {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0;
+}*/
+
+/* .box1{
+    width: 200px;
+    height: 500px;
+    background-color: red;
+}
+
+.box1:hover .box2{
+    transition: all .4s ease-in-out 0s;
+    transform: scale(1.04)
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    transition: 1s; 
+    background-color: green;
+} */
